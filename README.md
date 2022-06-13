@@ -1,2 +1,2 @@
-# Algoritmi-Avansa-i
+# Algoritmi-Avansati
 An 2, Sem 2
