@@ -1,0 +1,39 @@
+
+
+# def fibonacciRetinere(n, v = [] , pas = 0):
+    
+#     if pas > n:
+#         print(v[n])
+#         return v
+    
+#     if pas == 0:
+#         v.append(1)
+#         return fibonacciRetinere(n, v, pas + 1)
+    
+#     if pas == 1:
+#         v.append(1)
+#         return fibonacciRetinere(n, v, pas + 1)
+    
+#     v.append(v[pas-2] + v[pas-1])
+#     return fibonacciRetinere(n, v, pas + 1)
+    
+# v = fibonacciRetinere(6)
+# print(v)
+
+
+# def fibonacciVector(n, v = [1, 1]):
+    
+#     if n == 0:
+#         v = [1]
+#         # print(v[0])
+#         return 1
+    
+#     if n == 1:
+#         # print(v[-1])
+#         return v[-1]
+    
+#     v.append(v[-1] + v[-2])
+#     return fibonacciVector(n - 1, v)
+    
+# v = fibonacciVector(6)
+# print(v)
